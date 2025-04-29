@@ -417,7 +417,7 @@ a {
   .w-r-how-container {
     margin: auto;
     width: 1440px;
-    padding: 120px 234px;
+    padding: 120px 234px 0;
   }
   .w-r-how-list {
     gap: 40px;
