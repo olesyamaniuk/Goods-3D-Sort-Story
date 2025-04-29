@@ -1,5 +1,5 @@
 $(function () {
-  $(".w-e-gallery-list").slick({
+  $(".w-r-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -11,13 +11,13 @@ $(function () {
     centerMode: true,
     focusOnSelect: true,
     cssEase: "linear",
-    prevArrow: ".w-e-gallery-list-left",
-    nextArrow: ".w-e-gallery-list-right",
+    prevArrow: ".w-r-gallery-list-left",
+    nextArrow: ".w-r-gallery-list-right",
   });
 });
 
 $(function () {
-  $(".w-e-reviews-list").slick({
+  $(".w-r-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -27,7 +27,7 @@ $(function () {
     speed: 1000,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".w-e-reviews-list-left",
-    nextArrow: ".w-e-reviews-list-right",
+    prevArrow: ".w-r-reviews-list-left",
+    nextArrow: ".w-r-reviews-list-right",
   });
 });
